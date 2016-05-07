@@ -1,0 +1,88 @@
+#myFormDiv {	
+	background-color:rgba(50,50,50,0.25);
+	width: 80%;
+	padding: 1em 0em 0em 0em;
+	margin: 0 auto;
+	border-radius: 0.25em;
+}
+
+body{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #F3DEDB;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #F9F9F9;
+}
+
+.WhiteText {color: white; font-size:0.9em;}
+.RedText {color:red;}
+.BlackText {color:black;
+			font-size:1.5em;
+			letter-spacing:-0.1em;
+			line-height: 70%;
+			margin-bottom:0; padding-bottom:0;
+			font-family: sans-serif;}
+.SmallText {font-size:0.9em; }
+.Lesspadding {padding-left:1em; padding-right:1em; margin:0;}
+
+.form-control::-webkit-input-placeholder { font-size: 0.9em; }
+.form-control:-moz-placeholder { font-size: 0.9em; }
+.form-control::-moz-placeholder { font-size: 0.9em; }
+.form-control:-ms-input-placeholder { font-size: 0.9em; }
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+hr {
+    display: block;
+    height: 0.01em;
+    border: 0;
+    border-top: 0.1em solid;
+	color: white;
+    margin: 1em 0;
+    padding: 0;
+	width: 80%;
+	
+}
+
+.MyErrorMessage{
+	color:red;
+	font-size:0.9em;
+}
+
+#divWrap { position: relative;
+           clear:both;
+           width:80%;
+           overflow: auto;
+		   padding:0;
+		   margin:0 auto;
+          }
+		  
+#ResultTabs
+{	display:inline-block;
+	padding:0;
+	margin:0;
+}
+
+#ResultMap
+{	display:inline-block;
+	padding:0;
+	margin:0;
+	width: 500px;
+    height: 400px;
+
+}
+
+.WinSize {width:80%;}
+.nav-pills>li>a{border-radius:0.25em; border-style:solid; border-color:white; border-width:0.1em; background-color:#F0F0F0;}
+
+.table_hour>th { background-color: #337ab7; color: white;}
+
